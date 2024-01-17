@@ -2,12 +2,14 @@
     border-radius: 8px;
     color: #FFF;
     font-size: 1rem;
-    background: red;
+    background: #FF5400;
     padding: 15px 25px;
     color: #FFF;
     cursor: pointer;
     border: 0;
 }
+
+
 
 .search {
     /* padding-top: 20px; */
@@ -15,7 +17,7 @@
     height: 10px;
     flex-shrink: 0;
     border-radius: 8px;
-    background: red;
+    background: #FF5400;
     /* padding: 15px 25px; */
     color: #FFF;
     cursor: pointer;
@@ -36,8 +38,20 @@
 /* header styles */
 header {
     background: #FFF;
-    padding-left: 80px;
+    padding: 80px;
 
+
+}
+
+.menu{
+    cursor: pointer;
+    display: none;
+}
+.menu div {
+    width: 30px;
+    height: 3px;
+    margin: 5px 0;
+    background: #000;
 }
 
 .text {
@@ -52,9 +66,9 @@ nav {
 
 
 
-nav > ul {
+nav>ul {
     display: flex;
-    margin-right: 80px;
+    margin-right: 60px;
 }
 
 nav li {
@@ -77,13 +91,19 @@ nav li a {
     border-radius: 16px;
     background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
     background-repeat: no-repeat;
-    width: 1320px;
-    height: 600px;
+    width: 1170px;
+    height: 500px;
+    flex-shrink: 0;
     /* padding-left: 80px; */
     margin-left: 80px;
     /* background: no-repeat; */
     background-image: repeating-linear-gradient(0);
 
+}
+
+#option {
+    border-radius: 4px;
+    border: 0;
 }
 
 .banner-content {
@@ -105,13 +125,19 @@ nav li a {
 }
 
 .types {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
     /* background-color: #FFF; */
     border-radius: 8px;
     color: #FFF;
+    display: inline-flex;
+    padding: 10px;
+    align-items: flex-start;
+    gap: 4px;
 }
 
-.inputs input[type] {
-    
+.types input[type] {
+
     border-radius: 8px;
     color: #FFF;
     /* font-size: 1rem; */
@@ -123,27 +149,427 @@ nav li a {
 /* fatures */
 
 .feature-img img {
-    height: 100%;
+    padding-top: 100px;
+    padding-right: 50px;
+    /* height: 100%; */
+    width: 540px;
+    height: 550px;
+    border-radius: 16px;
     margin-right: 80px;
 }
 
 .features {
     margin-left: 80px;
+    margin-top: 5px;
     display: flex;
+    padding-bottom: 100px;
     /* gap: 100px; */
 }
 
 .text-light-gray {
+    padding-top: 20px;
     color: #727272;
 }
 
 .feature-content {
     padding: 30px;
+    margin-top: 10px;
     margin-bottom: 20px;
     border-radius: 8px;
-    background: #FFF;
-    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    /* background: #FFF; */
+    /* box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06); */
 }
+
+/* letter */
+.letter {
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* .contact {
+    display: grid;
+    justify-content: space-between;
+} */
+.btn-primary1 {
+    text-align: left;
+    display: grid;
+    width: 393px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FF5400;
+    border: 0;
+    margin-top: 20px;
+    text-align: center;
+    color: #FFF;
+
+}
+
+.name {
+    margin-top: 20px;
+    border: 0;
+    width: 393px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.ten-years-badge1 {
+    justify-content: space-between;
+    width: 250px;
+    height: 80px;
+    transform: rotate(-19.628deg);
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    /* width: 342px; */
+    /* position: static; */
+    /* padding-left: 40px; */
+    text-align: center;
+    position: relative;
+    bottom: 400px;
+
+
+}
+
+.ten-years-badge1 h2 {
+    font-size: 1.8rem;
+    margin: 0;
+    padding-bottom: 100px;
+
+}
+
+.ten-years-badge1 p {
+    font-size: 0.9rem;
+}
+
+/* mountant */
+.list {
+    gap: 5px;
+    color: #131318;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    /* 162.5% */
+    margin-bottom: 10px;
+}
+
+.btn-primary-t {
+    margin-top: 30px;
+    border-radius: 8px;
+    color: #FFF;
+    font-size: 1rem;
+    background: #FF5400;
+    padding: 15px 25px;
+    color: #FFF;
+    cursor: pointer;
+    border: 0;
+}
+
+.watch {
+    justify-content: center;
+    width: 276px;
+    height: 80px;
+    transform: rotate(-25deg);
+    flex-shrink: 0;
+    border-radius: 8px;
+
+    color: #FFF;
+
+    text-align: center;
+    position: relative;
+    /* position: static; */
+    bottom: 450px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.watch p {
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.footer-colum1 {
+    margin-left: 50px;
+    padding-left: 20px;
+    width: 474px;
+    height: 422px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+}
+
+.letter-title {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+
+.feature-img2 {
+    width: 672px;
+    height: 322px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    padding-left: 50px;
+}
+
+/* Destination-section style start here */
+
+.Destination-section {
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.Destination-section h2 {
+    color: #131318;
+    font-size: 2.5rem;
+    text-align: center;
+
+}
+
+.Destination-section p {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 45px;
+    margin-left: 300px;
+    width: 643px;
+    align-items: center;
+
+}
+
+.row {
+    display: flex;
+    gap: 15px;
+}
+
+.Maldives,
+.Indonesia,
+.Srilanka,
+.North-America,
+.Kashmir,
+.Bangladesh,
+.Bandarban {
+    position: relative;
+    text-align: center;
+    color: #FFF;
+    font-size: 1rem;
+}
+
+.img-header {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* skill */
+.section-title1 {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+
+
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+#what-i-do-description {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+    padding: 5px 150px;
+}
+
+.skills-container {
+    display: flex;
+    gap: 5px;
+    padding-right: 70px;
+
+}
+
+#images {
+    width: 64px;
+    height: 64px;
+    flex-shrink: 0;
+}
+
+.skill {
+    padding-top: 70px;
+    padding-left: 50px;
+    padding-right: 30px;
+    width: 500px;
+    height: 234px;
+    flex-shrink: 0;
+    margin-left: 80px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.skill1 {
+    padding-top: 70px;
+    padding-left: 50px;
+    padding-right: 30px;
+    width: 500px;
+    height: 234px;
+    flex-shrink: 0;
+    margin-left: 20px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.world {
+    margin-top: 20px;
+    margin-left: 330px;
+}
+
+.skill2 {
+    padding-top: 70px;
+    padding-left: 50px;
+    padding-right: 30px;
+    width: 500px;
+    height: 234px;
+    flex-shrink: 0;
+    margin-left: 100px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.skill-description {
+    color: #5A5A5D;
+    font-family: Mulish;
+}
+
+/* optional */
+.social-linkss {
+    width: 579px;
+    height: 389px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+}
+
+.text-light-gray2 {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+    /* width: 643px; */
+}
+
+.social-linkss img {
+    padding-top: 14px;
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    gap: 20px;
+}
+
+.description {
+    padding-left: 50px;
+}
+
+.place {
+    padding-top: 45px;
+    padding-left: 50px;
+    display: flex;
+    gap: 20px;
+}
+
+#place {
+    margin-left: 500px;
+    margin-top: 50px;
+}
+
+#place2 {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.banner1 {
+    display: grid;
+    border-radius: 16px;
+    background-image: url(../Images/Group\ 39.png);
+    background-repeat: no-repeat;
+    width: 1170px;
+    height: 500px;
+    flex-shrink: 0;
+    /* padding-left: 80px; */
+    margin-left: 50px;
+    /* background: no-repeat; */
+    background-image: repeating-linear-gradient(0);
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.btn {
+    margin-left: 500px;
+
+}
+
+.btn-primary2 {
+    width: 210px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FF5400;
+    border: 0;
+    color: #FFF;
+}
+
+.banner2 {
+    display: grid;
+    border-radius: 16px;
+    background-image: url(../Images/Group\ 40.png);
+    background-repeat: no-repeat;
+    width: 1170px;
+    height: 500px;
+    flex-shrink: 0;
+    /* padding-left: 80px; */
+    margin-left: 50px;
+    /* background: no-repeat; */
+    background-image: repeating-linear-gradient(0);
+    margin-top: 50px;
+}
+
+.hr1 {
+    margin-right: 80px;
+    /* width: 430px; */
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+}
+
+
+/* footer */
 
 .footer {
     margin-top: 100px;
@@ -184,27 +610,200 @@ hr:hover {
 /* media */
 @media screen and (max-width: 600px) {
     header {
-        padding: 40px;
+        padding: 20px;
     }
-    nav, .banner, .features, .footer {
+    nav,
+    .banner,
+    .features,
+    .letter,
+    .footer,
+    .choose,
+    .skills-container,
+    .world, 
+    .Destination-section, .row {
         flex-direction: column;
+        
     }
-    .banner,.types {
+    .btn {
+        margin-left: 190px;
+    
+    }
+    .row {
+        grid-template-columns: 1fr;
+        width: 70%;
+    }
+    .Maldives img, .North-America img, .Indonesia img, .Bangladesh img, .Bandarban img, .Srilanka img, .Kashmir img {
+        width: 350px;
+    }
+    .Destination-section p{
+        margin-left: 0px;
+        margin-right: 50px;
+        width: 309px;
+    }
+    .skill1, .Destination-section {
+        /* padding-left: 10px; */
+        margin-left: 80px;
+    }
+
+    .world {
+        margin-left: 0;
+    }
+
+    .banner,
+    .banner1,
+    .banner2,
+    .social-linkss {
         width: 70%;
         height: 100%;
         display: grid;
         flex-direction: column;
     }
-    .types{
+
+    .banner1,
+    #place,
+    .banner2,
+    #place2,
+    .skill2 {
+        margin-left: 50px;
+        margin-top: 50px;
+        width: 90%;
+        height: 90%;
+        display: grid;
+
+    }
+    .menu{
+        display: block;
+        padding-right: 100px;
+    }
+  ul > li {
+    display: none;
+  }
+
+    .types, .inputs {
+        display: grid;
+        width: 30px;
+        text-align: left;
+        padding-bottom: 10px;
+    }
+
+    .hr {
+        width: 200px;
+    }
+
+    .watch {
+        color: #FFF;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 5px;
+        font-style: normal;
+
+
+    }
+    
+    .feature-img img {
+        width: 90%;
+        /* height: 100%; */
+        margin-left: 0;
+    }
+
+    .feature-img2 img {
+        display: grid;
+        width: 50%;
+        height: 100%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    nav>ul {
+        display: grid;
+        text-align: left;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 992px) {
+    header {
+        padding: 40px;
+    }
+
+    nav,
+    .banner,
+    .letter,
+    .features,
+    .footer .banner1,
+    .banner2,
+    .social-linkss, .Destination-section, .row {
+        flex-direction: column;
+    }
+
+    .banner,
+    .types {
+        width: 80%;
+        height: 70%;
+        display: grid;
+        flex-direction: column;
+    }
+    .btn {
+        margin-left: 500px;
+    
+    }
+    .row {
+        grid-template-columns: 1fr;
+        width: 90%;
+    }
+    /* .feature-img3 {
+        display: grid;
+        width: 70%;
+        /* height: 100%; */
+        /* padding-top: 20px;
+        padding-bottom: 20px; */
+        /* flex-direction: column */
+     
+    
+    .Maldives img, .North-America img, .Indonesia img, .Bangladesh img, .Bandarban img, .Srilanka img, .Kashmir img {
+        width: 350px;
+    }
+    .Destination-section p{
+        margin-left: 150px;
+        margin-right: 50px;
+        width: 309px;
+    }
+    .types {
         /* width: 30px; */
+        display: grid;
         text-align: left;
         padding-bottom: 60px;
     }
-    .feature-img img{
+
+    .feature-img img {
         width: 90%;
         margin-left: 0;
     }
-    nav > ul {
+  /* .feature-img3{
+        display: grid;
+        width: 70%;
+        height: 100%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        flex-direction: column
+     } */
+    .feature-img2 img {
+        display: grid;
+        width: 350px;
+        height: 100%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        flex-direction: column;
+    }
+
+    .banner1 #place {
+        margin-left: 20px;
+        margin-top: 50px;
+        width: 70%;
+        height: 90%;
+
+    }
+
+    nav>ul {
         display: grid;
         text-align: left;
     }
